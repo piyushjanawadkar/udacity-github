@@ -14,3 +14,9 @@ allows managing the commit history so that it is useful for debugging and lookin
 How can you use the staging area to make sure you have one commit per logical change?
 
 Only the files that belong to a logical change can be added to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- testing experimental code without affecting master branch
+- we can keep committing small changes to the branch when working on a large feature without having to keep in sync with master
+- branch can be used for demo / testing
