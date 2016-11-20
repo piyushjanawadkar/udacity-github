@@ -25,3 +25,10 @@ How do the diagrams help you visualize the branch structure?
 
 Diagrams list the parent of each commit and also mention the id/description of each commit. It helps visualize
 which commits are in a particular branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros
+- does most of the parts and leaves only the tricky parts for manual merge - saves work and time
+cons
+- sometimes, effect may not be what is intended.
