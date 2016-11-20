@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 git sets up the metadata needed for tracking the version history. It prepares a list of 'untracked' files.
 Without the metadata, the repository hasn't been initialized - so no future git commands will work against
 a raw directory on the filesystem.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is something that git stores metadata about. Git uses files added to staging area in the next commit.
+It allows you to ensure that the files represent a logical group that can be committed. Files that logically
+disconnected from other changes files can be removed from the staging area and committed in separate commits. This
+allows managing the commit history so that it is useful for debugging and looking at a logical group of changes.
