@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git sets up the metadata needed for tracking the version history. It prepares a list of 'untracked' files.
+Without the metadata, the repository hasn't been initialized - so no future git commands will work against
+a raw directory on the filesystem.
