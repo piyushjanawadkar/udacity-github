@@ -10,3 +10,7 @@ staging area is something that git stores metadata about. Git uses files added t
 It allows you to ensure that the files represent a logical group that can be committed. Files that logically
 disconnected from other changes files can be removed from the staging area and committed in separate commits. This
 allows managing the commit history so that it is useful for debugging and looking at a logical group of changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only the files that belong to a logical change can be added to the staging area.
