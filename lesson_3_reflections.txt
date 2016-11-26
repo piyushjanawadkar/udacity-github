@@ -5,3 +5,23 @@ when there are multiple collaborators. When you code from different machines. Wh
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 To prevent changes in the process of development being overwritten by an (possibly updated) copy in the remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+fork vs clone:
+- fork forks repository in github onto github whereas clone clones remote (ex: github) repository onto local machine
+- fork tracks the repository that was forked.
+- fork is used when you want to create a copy of a repo on github to which you want to add your own modifications. You either don't want to or aren't allowed to submit changes to main repository.
+- clone is used when you want to create a copy of a repo without referring to the original repo. (You can push the changes to a new repo owned by you)
+
+fork vs branch:
+- fork forks repositories - all its branches
+- branch creates a new sequence of commits within a repository.
+- fork is used when you want to create a new repo starting from an existing one on github.
+- branch is used when you want to make your modifications to files inside a repo and want to keep it separate from the master.
+
+clone vs branch:
+- clone creates a copy of a repository - all its branches
+- branch creates a new sequence of commits within a repository.
+- clone is used when you want to create a new repo starting from an existing remote.
+- branch is used when you want to make your modifications to files inside a repo and want to keep it separate from the master.
