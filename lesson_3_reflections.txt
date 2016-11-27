@@ -29,3 +29,11 @@ clone vs branch:
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 the current state of the remote repository can be fast-forward merged on fetch for later merge when you don't yet want to merge.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+revision history: Manually manage directories by timestamp / user name / status like committed or pending. Harder
+code reviews: sharing link to a directory along with text file containing output of diff -u for each changed files. Harder - more work, error prone
+rollbacks: switch back to an older directory. Error prone.
+branching for experimental changes: Need to maintain info about which directory was copied possibly in directory name or a readme file underneath. Harder
+merging branches: Need to be careful - compute the diff and manually merge. Harder.
