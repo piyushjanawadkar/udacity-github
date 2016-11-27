@@ -37,3 +37,9 @@ code reviews: sharing link to a directory along with text file containing output
 rollbacks: switch back to an older directory. Error prone.
 branching for experimental changes: Need to maintain info about which directory was copied possibly in directory name or a readme file underneath. Harder
 merging branches: Need to be careful - compute the diff and manually merge. Harder.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+when you want to work on experimental changes without breaking master branch. Master branch is not broken by experimental changes. Your demo is unaffected by changes to master branch.
+when you want to implement new feature. ditto as above.
+when you want to send code to a collaborator for review. master is not broken by your change prior to review.
