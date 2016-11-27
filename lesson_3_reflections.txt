@@ -25,3 +25,7 @@ clone vs branch:
 - branch creates a new sequence of commits within a repository.
 - clone is used when you want to create a new repo starting from an existing remote.
 - branch is used when you want to make your modifications to files inside a repo and want to keep it separate from the master.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+the current state of the remote repository can be fast-forward merged on fetch for later merge when you don't yet want to merge.
